@@ -3,8 +3,8 @@
 ################################################################################
 # Set variables
 ################################################################################
-TAG_NAME="${TAG_NAME:=raetro/quartus}"
-GIT_TAG_NAME="${GIT_TAG_NAME:=ghcr.io/raetro/quartus}"
+TAG_NAME="${TAG_NAME:=patryk4815/quartus}"
+GIT_TAG_NAME="${GIT_TAG_NAME:=patryk4815/quartus}"
 VERSION=
 BUILD_DATE=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
 INTEL_CDN=https://downloads.intel.com/akdlm/software/acdsinst

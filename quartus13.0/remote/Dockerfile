@@ -44,3 +44,5 @@ LABEL \
     org.opencontainers.image.source="https://github.com/raetro/sdk-docker-fpga.git"  \
     org.opencontainers.image.created=$BUILD_DATE                                     \
     org.opencontainers.image.version=$BUILD_VERSION
+
+RUN sed -i 's@grep sse /proc/cpuinfo > /dev/null 2>&1@:@g' /opt/intelFPGA/quartus/adm/qenv.sh
